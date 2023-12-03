@@ -1,0 +1,67 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0;
+}
+/* banner Section */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+}
+
+.bannerTextBox {
+    text-align: right;
+   
+    padding-top: 216px;
+    margin-right: 230px;
+}
+
+.bannerTextBox h1 {
+    font-size: 30px;
+    color: brown;
+}
+
+/* My failures of previous year */
+
+.previousYear{
+    margin-top:402px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:168px;
+    
+    
+}
+
+.imageDiv {
+    position:relative;
+   
+}
+
+ .imageDiv div img{
+    position:absolute;
+    margin-left:276px;
+    margin-top:0px;
+
+ }
+
+.circle{
+    height:528px;
+    width:528px;
+    margin-left:206px;
+    margin-top:168px;
+    border-radius:50%;
+    background: rgba(241, 91, 34, 0.20);
+    overflow:hidden;
+}
+
+
+.previousYear p span{
+    
+color:#16D887;
+}
