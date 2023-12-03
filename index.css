@@ -65,3 +65,11 @@ body {
     
 color:#16D887;
 }
+
+/* my  plan */
+
+.myPlan{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
